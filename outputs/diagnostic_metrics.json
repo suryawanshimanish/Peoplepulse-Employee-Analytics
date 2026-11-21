@@ -1,0 +1,120 @@
+{
+  "audit": {
+    "row_count": 1470,
+    "column_count": 31,
+    "duplicate_rows": 0,
+    "total_missing_values": 0,
+    "missing_by_column": {
+      "JobInvolvement": 0,
+      "JobSatisfaction": 0,
+      "EnvironmentSatisfaction": 0,
+      "RelationshipSatisfaction": 0,
+      "WorkLifeBalance": 0
+    },
+    "ordinal_validation": {
+      "JobInvolvement": {
+        "min": 1,
+        "max": 4,
+        "out_of_range_fixed": 0,
+        "mean": 2.7299,
+        "std": 0.7116,
+        "distribution": {
+          "1": 83,
+          "2": 375,
+          "3": 868,
+          "4": 144
+        }
+      },
+      "JobSatisfaction": {
+        "min": 1,
+        "max": 4,
+        "out_of_range_fixed": 0,
+        "mean": 2.7286,
+        "std": 1.1028,
+        "distribution": {
+          "1": 289,
+          "2": 280,
+          "3": 442,
+          "4": 459
+        }
+      },
+      "EnvironmentSatisfaction": {
+        "min": 1,
+        "max": 4,
+        "out_of_range_fixed": 0,
+        "mean": 2.7218,
+        "std": 1.0931,
+        "distribution": {
+          "1": 284,
+          "2": 287,
+          "3": 453,
+          "4": 446
+        }
+      },
+      "RelationshipSatisfaction": {
+        "min": 1,
+        "max": 4,
+        "out_of_range_fixed": 0,
+        "mean": 2.7122,
+        "std": 1.0812,
+        "distribution": {
+          "1": 276,
+          "2": 303,
+          "3": 459,
+          "4": 432
+        }
+      },
+      "WorkLifeBalance": {
+        "min": 1,
+        "max": 4,
+        "out_of_range_fixed": 0,
+        "mean": 2.7612,
+        "std": 0.7065,
+        "distribution": {
+          "1": 80,
+          "2": 344,
+          "3": 893,
+          "4": 153
+        }
+      }
+    }
+  },
+  "kpis": {
+    "total_employees": 1470,
+    "engagement_index_mean": 57.44,
+    "engagement_index_median": 58.33,
+    "engagement_index_std": 16.8,
+    "engagement_raw_mean": 2.723,
+    "burnout_risk_score_mean": 34.8,
+    "work_life_balance_index_1_4": 2.761,
+    "work_life_balance_index_0_100": 58.71,
+    "satisfaction_stability_mean": 45.25,
+    "workload_stress_indicator_mean": 41.31,
+    "overtime_rate_pct": 28.3,
+    "low_wlb_rate_pct": 28.84,
+    "high_burnout_count": 126,
+    "high_burnout_pct": 8.57,
+    "medium_burnout_count": 588,
+    "medium_burnout_pct": 40.0,
+    "low_burnout_count": 756,
+    "low_burnout_pct": 51.43,
+    "attrition_count": 237,
+    "attrition_rate_pct": 16.12
+  },
+  "contextual_attrition": {
+    "stayed_engagement_mean": 58.79,
+    "left_engagement_mean": 50.42,
+    "engagement_diff": -8.36,
+    "engagement_cohens_d": -0.481,
+    "engagement_t": 7.14,
+    "engagement_p": 1.4882282266511706e-12,
+    "engagement_mw_p": 2.2152927565247773e-10,
+    "stayed_burnout_score": 32.04,
+    "left_burnout_score": 49.16,
+    "burnout_cohens_d": 0.653,
+    "burnout_t": -9.68,
+    "burnout_p": 1.5379576873392185e-21,
+    "burnout_chi2": 67.2,
+    "burnout_chi_p": 2.557972012068583e-15
+  }
+}
